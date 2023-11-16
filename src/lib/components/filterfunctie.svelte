@@ -1,45 +1,121 @@
 <main>
+  <!-- Filterfuncitie -->
+  <section>
+    <div>
+      <article>
+        <ul class="ulbuttons">
+          <li>
+            <button>
+              <img src="/oeb-logo.svg" alt="Onderzoeken en begrijpen icon" />
+            </button>
+            <h1>Onderzoeken en begrijpen</h1>
+          </li>
+
+          <li>
+            <button>
+              <img src="/oep-logo.svg" alt="Organiseren en plannen icon" />
+            </button>
+            <h1>Organiseren en plannen</h1>
+          </li>
+          <li>
+            <button>
+              <img src="/loa-logo.svg" alt="Leren over anderen logo" />
+            </button>
+            <h1>Leren over anderen</h1>
+          </li>
+          <li>
+            <button>
+              <img src="/lojr-logo.svg" alt="Leren over jezelf icon" />
+            </button>
+            <h1>Leren over jezelf</h1>
+          </li>
+          <li>
+            <button>
+              <img src="/cep-logo.svg" alt="Communiceren en presenteren icon" />
+            </button>
+            <h1>Communiceren en presenteren</h1>
+          </li>
+          <li>
+            <button>
+              <img src="/cd-logo.svg" alt="Creatief denken icon" />
+            </button>
+            <h1>Creatief denken</h1>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
   <!-- Kennisclips video's -->
   <section>
     <article>
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/yr-rRMElLFg?si=_vDgmdpCmfLcNe2v"
-        title="Onderzoeken en begrijpen"
+        src="https://www.youtube.com/embed/KaX4moO99mA?si=-Ga2yVRDq6corNkW"
+        title="Organiseren en plannen"
         frameborder="0"
         allowfullscreen
       />
 
-      <h2>Onderzoeken en begrijpen</h2>
+      <h2>Organiseren en plannen</h2>
       <p>
-        De wereld wordt steeds complexer en het maken van tekeningen kan helpen
-        bij het begrijpen en overbrengen van ideeën. Visual thinking wordt in
-        het bedrijfsleven steeds meer toegepast maar voor de praktijk van het
-        hoger onderwijs vormt het nog een uitdaging. Het is nog niet zo gewoon
-        om als docent (live) te tekenen tijdens het geven van de les of om als
-        student visuele aantekeningen te maken (sketchnotes). En dit terwijl het
-        aantoonbaar gunstig is om studenten zelf te laten tekenen. Zo kunnen ze
-        zich beter concentreren en worden er meerdere zintuigen tegelijk
-        geprikkeld.
+        Een belangrijk onderdeel van studeren is het plannen en organiseren van
+        je studie. Veel studenten zeggen dat ze ‘beter hadden moeten plannen’
+        als ze een vak of project niet halen. Er zijn talloze digitale tools en
+        agenda’s te vinden waarmee studenten een planning kunnen maken maar het
+        maken van een ‘analoge’ planning (iets wat zoveel betekent als met pen
+        en papier) helpt het best bij het onthouden van de informatie. Er zitten
+        namelijk een heleboel ‘visuele aanwijzingen’ in deze handeling: zoals de
+        vormen van de letters, het tactiele gevoel van pen en papier, de
+        plaatsing van jouw woorden op het papier en details, zoals gevouwen
+        hoekjes en de kleur van de inkt.
       </p>
 
       <p>
-        Naast het verhogen van de participatie wordt het ook voor de docent een
-        stuk inzichtelijker wie er actief meedoet aan de les en wat er van de
-        stof begrepen wordt. De docent kan de sketchnotes tijdens of na de les
-        bekijken en daar weer vragen over stellen. Waar je bij geschreven tekst
-        gemakkelijk een hele zin of woord kunt overschrijven zonder
-        daadwerkelijk te begrijpen waar het over gaat, is dat bij het maken van
-        visuele aantekeningen veel moeilijker. Andersom hoef je de taal niet
-        volledig meester te zijn om toch aan te tonen dat je een bepaalde term
-        wel begrijpt.
+        Je brein absorbeert als het ware al deze informatie die later als een
+        trigger fungeert: je kan de informatie exacter terughalen uit je
+        geheugen. In de kennisclip wordt uitgelegd hoe visual thinking studenten
+        kan helpen te organiseren en plannen en hoe de werkvormen op het
+        platform hierop aansluiten.
+      </p>
+    </article>
+
+    <article>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/hMSZTRgLT-o?si=Rgq8e0O4NJSclR8L"
+        title="Leren over anderen"
+        frameborder="0"
+        allowfullscreen
+      />
+
+      <h2>Leren over anderen</h2>
+      <p>
+        Als mensheid zijn we gewend om samen te werken. De meesten van ons doen
+        dat op hun werk en als ze als zelfstandige werken, zullen ze op andere
+        manieren met andere mensen te maken krijgen. Ook in het hbo wordt er
+        door zowel docenten als studenten veel samengewerkt. Studenten worden op
+        die manier voorbereid op hun werkzame leven.
       </p>
 
       <p>
-        In de kennisclip wordt uitgelegd hoe visual thinking studenten de
-        lesstof beter laat begrijpen en hoe de werkvormen op het platform
-        hierbij kunnen helpen.
+        Docenten werken meestal ook in teams met andere docenten én op een
+        bepaalde manier ook met hun studenten. Juist in een tijd waarin het
+        onderwijs minder klassikaal wordt en docenten van een ‘alwetende’ rol
+        naar een meer coachende en gelijkwaardige rol gaan, is samenwerking erg
+        belangrijk.
+      </p>
+
+      <p>
+        Er zijn allerlei manieren om samenwerking goed te laten verlopen maar in
+        het hbo wordt nog weinig visueel samengewerkt. En dat terwijl visueel
+        werken kan helpen om mensen in een team meer over elkaar te weten te
+        laten komen en de neuzen dezelfde kant op te krijgen. In de kennisclip
+        wordt uitgelegd hoe visual thinking het leerproces van een groep kan
+        ondersteunen en wanneer welke visuele werkvormen van toepassing kunnen
+        zijn.
       </p>
     </article>
 
@@ -48,7 +124,7 @@
         width="560"
         height="315"
         src="https://www.youtube.com/embed/UQa9sK42OOM?si=OreJuspyQvJhee6f"
-        title="Leren over jezelf en reflecterenr"
+        title="Leren over jezelf en reflecteren"
         frameborder="0"
         allowfullscreen
       />
@@ -91,39 +167,6 @@
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/KaX4moO99mA?si=-Ga2yVRDq6corNkW"
-        title="Organiseren en plannen"
-        frameborder="0"
-        allowfullscreen
-      />
-
-      <h2>Organiseren en plannen</h2>
-      <p>
-        Een belangrijk onderdeel van studeren is het plannen en organiseren van
-        je studie. Veel studenten zeggen dat ze ‘beter hadden moeten plannen’
-        als ze een vak of project niet halen. Er zijn talloze digitale tools en
-        agenda’s te vinden waarmee studenten een planning kunnen maken maar het
-        maken van een ‘analoge’ planning (iets wat zoveel betekent als met pen
-        en papier) helpt het best bij het onthouden van de informatie. Er zitten
-        namelijk een heleboel ‘visuele aanwijzingen’ in deze handeling: zoals de
-        vormen van de letters, het tactiele gevoel van pen en papier, de
-        plaatsing van jouw woorden op het papier en details, zoals gevouwen
-        hoekjes en de kleur van de inkt.
-      </p>
-
-      <p>
-        Je brein absorbeert als het ware al deze informatie die later als een
-        trigger fungeert: je kan de informatie exacter terughalen uit je
-        geheugen. In de kennisclip wordt uitgelegd hoe visual thinking studenten
-        kan helpen te organiseren en plannen en hoe de werkvormen op het
-        platform hierop aansluiten.
-      </p>
-    </article>
-
-    <article>
-      <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/r51hdmjgJNw?si=XAuYvcJTQC-dabr3"
         title="Communiceren en presenteren"
         frameborder="0"
@@ -154,44 +197,6 @@
         behulp van een paar handige tips maak je een presentatie visueler en
         daarmee interessanter. Ook de werkvormen op het platform kunnen hierbij
         helpen.
-      </p>
-    </article>
-
-    <article>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/hMSZTRgLT-o?si=Rgq8e0O4NJSclR8L"
-        title="Leren over anderen"
-        frameborder="0"
-        allowfullscreen
-      />
-
-      <h2>Leren over anderen</h2>
-      <p>
-        Als mensheid zijn we gewend om samen te werken. De meesten van ons doen
-        dat op hun werk en als ze als zelfstandige werken, zullen ze op andere
-        manieren met andere mensen te maken krijgen. Ook in het hbo wordt er
-        door zowel docenten als studenten veel samengewerkt. Studenten worden op
-        die manier voorbereid op hun werkzame leven.
-      </p>
-
-      <p>
-        Docenten werken meestal ook in teams met andere docenten én op een
-        bepaalde manier ook met hun studenten. Juist in een tijd waarin het
-        onderwijs minder klassikaal wordt en docenten van een ‘alwetende’ rol
-        naar een meer coachende en gelijkwaardige rol gaan, is samenwerking erg
-        belangrijk.
-      </p>
-
-      <p>
-        Er zijn allerlei manieren om samenwerking goed te laten verlopen maar in
-        het hbo wordt nog weinig visueel samengewerkt. En dat terwijl visueel
-        werken kan helpen om mensen in een team meer over elkaar te weten te
-        laten komen en de neuzen dezelfde kant op te krijgen. In de kennisclip
-        wordt uitgelegd hoe visual thinking het leerproces van een groep kan
-        ondersteunen en wanneer welke visuele werkvormen van toepassing kunnen
-        zijn.
       </p>
     </article>
 
@@ -247,3 +252,31 @@
     </article>
   </section>
 </main>
+
+<style>
+  .ulbuttons {
+    grid-template-columns: 1fr 1fr 4fr;
+    list-style: none;
+    display: grid;
+    justify-content: space-between;
+  }
+
+  li {
+    position: relative;
+    left: 1em;
+  }
+
+  button {
+    width: 5rem;
+    height: 4rem;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    border: none;
+    background-color: #e0dedc;
+  }
+
+  h1 {
+    margin-left: 5em;
+    position: relative;
+    top: -4em;
+  }
+</style>
