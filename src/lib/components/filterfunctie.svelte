@@ -1,55 +1,72 @@
+<script>
+  import { onMount } from "svelte";
+
+  onMount(() => {
+    const organiseLink = document.querySelector(".organise-button");
+    console.log(organiseLink);
+    const organiseVideo = document.querySelector(".organiseren-video");
+    const lerenVideoknop = document.querySelector(".leren-button");
+
+    // Het ophalen van een video (veranderen van de src)
+    lerenVideoknop.addEventListener("click", () => {
+      organiseVideo.src =
+        "https://www.youtube.com/embed/hMSZTRgLT-o?si=Rgq8e0O4NJSclR8L";
+    });
+  });
+</script>
+
 <main>
   <!-- Filterfuncitie -->
   <section>
-    <div>
-      <article>
-        <ul class="ulbuttons">
-          <li>
-            <button>
-              <img src="/oeb-logo.svg" alt="Onderzoeken en begrijpen icon" />
-            </button>
-            <h1>Onderzoeken en begrijpen</h1>
-          </li>
+    <article>
+      <ul class="ulbuttons">
+        <li>
+          <button>
+            <img src="/oeb-logo.svg" alt="Onderzoeken en begrijpen icon" />
+          </button>
+          <h1>Onderzoeken en begrijpen</h1>
+        </li>
 
-          <li>
-            <button>
-              <img src="/oep-logo.svg" alt="Organiseren en plannen icon" />
-            </button>
-            <h1>Organiseren en plannen</h1>
-          </li>
-          <li>
-            <button>
-              <img src="/loa-logo.svg" alt="Leren over anderen logo" />
-            </button>
-            <h1>Leren over anderen</h1>
-          </li>
-          <li>
-            <button>
-              <img src="/lojr-logo.svg" alt="Leren over jezelf icon" />
-            </button>
-            <h1>Leren over jezelf</h1>
-          </li>
-          <li>
-            <button>
-              <img src="/cep-logo.svg" alt="Communiceren en presenteren icon" />
-            </button>
-            <h1>Communiceren en presenteren</h1>
-          </li>
-          <li>
-            <button>
-              <img src="/cd-logo.svg" alt="Creatief denken icon" />
-            </button>
-            <h1>Creatief denken</h1>
-          </li>
-        </ul>
-      </article>
-    </div>
+        <li>
+          <button class="organise-button">
+            <img src="/oep-logo.svg" alt="Organiseren en plannen icon" />
+          </button>
+          <h1>Organiseren en plannen</h1>
+        </li>
+        <li>
+          <button class="leren-button">
+            <img src="/loa-logo.svg" alt="Leren over anderen logo" />
+          </button>
+          <h1>Leren over anderen</h1>
+        </li>
+        <li>
+          <button>
+            <img src="/lojr-logo.svg" alt="Leren over jezelf icon" />
+          </button>
+          <h1>Leren over jezelf</h1>
+        </li>
+        <li>
+          <button>
+            <img src="/cep-logo.svg" alt="Communiceren en presenteren icon" />
+          </button>
+          <h1>Communiceren en presenteren</h1>
+        </li>
+        <li>
+          <button>
+            <img src="/cd-logo.svg" alt="Creatief denken icon" />
+          </button>
+          <h1>Creatief denken</h1>
+        </li>
+      </ul>
+    </article>
   </section>
 
   <!-- Kennisclips video's -->
+
   <section>
     <article>
       <iframe
+        class="organiseren-video"
         width="560"
         height="315"
         src="https://www.youtube.com/embed/KaX4moO99mA?si=-Ga2yVRDq6corNkW"
@@ -80,8 +97,44 @@
         platform hierop aansluiten.
       </p>
     </article>
+  </section>
 
+  <section>
     <article>
+      <!-- <iframe
+        class="organiseren-video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/KaX4moO99mA?si=-Ga2yVRDq6corNkW"
+        title="Organiseren en plannen"
+        frameborder="0"
+        allowfullscreen
+      />
+
+      <h2>Organiseren en plannen</h2>
+      <p>
+        Een belangrijk onderdeel van studeren is het plannen en organiseren van
+        je studie. Veel studenten zeggen dat ze ‘beter hadden moeten plannen’
+        als ze een vak of project niet halen. Er zijn talloze digitale tools en
+        agenda’s te vinden waarmee studenten een planning kunnen maken maar het
+        maken van een ‘analoge’ planning (iets wat zoveel betekent als met pen
+        en papier) helpt het best bij het onthouden van de informatie. Er zitten
+        namelijk een heleboel ‘visuele aanwijzingen’ in deze handeling: zoals de
+        vormen van de letters, het tactiele gevoel van pen en papier, de
+        plaatsing van jouw woorden op het papier en details, zoals gevouwen
+        hoekjes en de kleur van de inkt.
+      </p>
+
+      <p>
+        Je brein absorbeert als het ware al deze informatie die later als een
+        trigger fungeert: je kan de informatie exacter terughalen uit je
+        geheugen. In de kennisclip wordt uitgelegd hoe visual thinking studenten
+        kan helpen te organiseren en plannen en hoe de werkvormen op het
+        platform hierop aansluiten.
+      </p>
+    </article> -->
+
+      <!-- <article>
       <iframe
         width="560"
         height="315"
@@ -117,9 +170,9 @@
         ondersteunen en wanneer welke visuele werkvormen van toepassing kunnen
         zijn.
       </p>
-    </article>
+    </article> -->
 
-    <article>
+      <!-- <article>
       <iframe
         width="560"
         height="315"
@@ -249,6 +302,7 @@
         gebruiken om creatiever te denken. Ook de werkvormen op het platform
         kunnen hierbij helpen.
       </p>
+    </article> -->
     </article>
   </section>
 </main>
