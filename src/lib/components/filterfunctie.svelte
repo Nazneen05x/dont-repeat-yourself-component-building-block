@@ -16,7 +16,7 @@
 </script>
 
 <main>
-  <!-- Filterfuncitie -->
+  Filterfuncitie
   <section>
     <article>
       <ul class="ulbuttons">
@@ -101,7 +101,7 @@
 
   <section>
     <article>
-      <!-- <iframe
+      <iframe
         class="organiseren-video"
         width="560"
         height="315"
@@ -132,9 +132,9 @@
         kan helpen te organiseren en plannen en hoe de werkvormen op het
         platform hierop aansluiten.
       </p>
-    </article> -->
+    </article>
 
-      <!-- <article>
+    <article>
       <iframe
         width="560"
         height="315"
@@ -170,9 +170,9 @@
         ondersteunen en wanneer welke visuele werkvormen van toepassing kunnen
         zijn.
       </p>
-    </article> -->
+    </article>
 
-      <!-- <article>
+    <article>
       <iframe
         width="560"
         height="315"
@@ -302,7 +302,6 @@
         gebruiken om creatiever te denken. Ook de werkvormen op het platform
         kunnen hierbij helpen.
       </p>
-    </article> -->
     </article>
   </section>
 </main>
